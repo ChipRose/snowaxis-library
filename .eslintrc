@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      // Regex for Component Factory to use,
+      // default to "createReactClass"
+      "pragma": "React",
+      // Pragma to use, default to "React"
+      "fragment": "Fragment",
+      // Fragment to use (maybe a property of <pragma>), default to "Fragment"
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser": "@babel/eslint-parser",
+  "plugins": [
+    "react",
+    "react-hooks",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-unused-vars": 0,
+    "semi": 0,
+    "react/require-default-props": "off",
+    "react/prop-types": "off",
+    "max-len": "off",
+    "no-console": [
+      0
+    ],
+    "linebreak-style": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": 0,
+    "no-var": "error",
+    "no-multi-spaces": 1,
+    "space-in-parens": 0,
+    "no-multiple-empty-lines": 1,
+    "prefer-const": 1,
+    "no-use-before-define": 1,
+    "complexity": "off",
+    "react/sort-comp": "off"
+    //    "no-magic-numbers": [1, { "ignore": [-1, 0, 1, 2] }]
+  }
+}

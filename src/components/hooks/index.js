@@ -1,0 +1,1 @@
+export { useMapType } from './useMapType'

@@ -1,0 +1,21 @@
+export const ScEditType = {
+  Text: 'text',
+  Number: 'number',
+  'date-number': 'date-number',
+  Date: 'date',
+  LongText: 'longtext',
+  JSON: 'JSON',
+  Image: 'image',
+  Combo: 'combo',
+  Link: 'link',
+  Dropdown: 'dropdown',
+  MultiSelect: 'multiselect',
+  MultiCombo: 'multicombo',
+  Select: 'select',
+  Checkbox: 'checkbox',
+  Boolean: 'boolean',
+  '2levelsMapList': '2levels_map_list',
+  FixedKeyMap: 'fixed_key_map',
+  FlatList: 'flat_list',
+  map: 'map'
+}
